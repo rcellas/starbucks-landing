@@ -1,0 +1,161 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*nav init*/
+
+.navbar {
+  width: 100%;
+  padding: 100px;
+  /* background-color: white; */
+}
+
+.navbar nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.navbar nav .logo {
+  position: relative;
+  max-width: 80px;
+}
+
+.navbar nav ul {
+  display: flex;
+}
+
+.navbar nav ul li {
+  list-style: none;
+}
+
+.navbar nav ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+/* nav finish */
+
+/* main init*/
+
+.container {
+  padding: 0px 100px;
+}
+
+.container .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .content .textBox {
+  max-width: 600px;
+}
+
+.container .content .textBox h2 {
+  color: #333;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.container .content .textBox h2 span {
+  color: #017143;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.container .content .textBox p {
+  color: #333;
+  margin: 20px 0;
+}
+
+.container .content .textBox button {
+  background: #017143;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 28px;
+  border-radius: 40px;
+  border: #017143;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.container .content .imgBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.container .content .imgBox img{
+  max-width: 450px;
+}
+
+.container .content .thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+.container .content .thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.container .content .thumb li:hover {
+  transform: translateY(-15px);
+}
+
+.container .content .thumb li img {
+  max-width: 60px;
+}
+
+.container .content .rrss {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .content .rrss li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.container .content .rrss li a {
+  display: inline-block;
+  margin: 5px 10px;
+  transform: scale(0.6);
+  filter: invert(1);
+}
+
+.container .circle{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 800px);
+    z-index:-1;
+}
+/* main end */
