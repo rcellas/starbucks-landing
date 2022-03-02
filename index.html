@@ -14,17 +14,20 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div class="navbar">
+    <header class="navbar">
       <nav class="nav">
         <a href="#"><img src="assets/img/logo.png" class="logo" /></a>
-        <ul>
+        <div class="toggle" id="toggle" onclick="toggleMenu()">
+          
+        </div>
+        <ul class="navigation" id="navigation"> 
           <li><a href="#">Home</a></li>
           <li><a href="#">Menu</a></li>
           <li><a href="#">What's New</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-    </div>
+    </header>
     <main class="container">
       <div class="circle" id="circle"></div>
       <section class="content">
@@ -66,7 +69,13 @@
       function changeCircleColor(color){
         const circle = document.getElementById("circle");
         circle.style.color= color;
-        console.log('aa',circle.style.background = color)
+      }
+
+      function toggleMenu(){
+        const menuToggle = document.getElementById('toggle');
+        const navigation = document.getElementById('navigation')
+        menuToggle.classList.toggle("active")
+        navigation.classList.toggle("active")
       }
     </script>
 </html>
