@@ -44,8 +44,6 @@
   text-decoration: none;
 }
 
-
-
 /* nav finish */
 
 /* main init*/
@@ -164,31 +162,31 @@
   .navbar {
     padding: 20px;
   }
-  .navbar .nav{
+  .navbar .nav {
     padding: 20px 50px;
   }
   .navbar .nav .logo {
     max-width: 60px;
   }
 
-  .navbar .nav .toggle{
+  .navbar .nav .toggle {
     position: relative;
     width: 30px;
     height: 30px;
     cursor: pointer;
-    background-image: url('/assets/img/menu.png');
+    background-image: url("/assets/img/menu.png");
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
     filter: invert(1);
     z-index: 10;
   }
-  
-  .navbar .nav .toggle.active{
+
+  .navbar .nav .toggle.active {
     position: fixed;
     right: 20px;
     cursor: pointer;
-    background-image: url('/assets/img/close.png');
+    background-image: url("/assets/img/close.png");
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
@@ -200,18 +198,18 @@
     display: none;
   }
 
-  .navbar nav ul li{
+  .navbar nav ul li {
     font-size: 1.5em;
   }
 
-  .navbar .nav .navigation.active{
+  .navbar .nav .navigation.active {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height:100%;
+    height: 100%;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: #fff;
@@ -221,10 +219,10 @@
   main {
     padding: 20px 20px 120px;
   }
-  .container{
+  .container {
     padding: 0px 50px;
   }
-  .container .circle{
+  .container .circle {
     clip-path: circle(350px at center bottom);
   }
   .container .content {
@@ -242,20 +240,19 @@
     margin-bottom: 15px;
   }
 
-  .container .content .imgBox{
-    max-width: 100%; 
-    margin-bottom: ;
+  .container .content .imgBox {
+    max-width: 100%;
     justify-content: center;
   }
-  .container .content .imgBox img{
+  .container .content .imgBox img {
     max-width: 240px;
   }
 
-  .container .content .thumb li img{
+  .container .content .thumb li img {
     max-width: 40px;
   }
 
-  .container .content .rrss{
+  .container .content .rrss {
     background: #017143;
     right: 0;
     width: 50px;
